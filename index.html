@@ -45,7 +45,7 @@
   
   <h2 id='set'>Set</h2>
   
-  <audio controls style="vertical-align: middle;"><source src="mp3_live/LeptonSoup.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+  <audio id='lepton' controls style="vertical-align: middle;"><source src="mp3_live/LeptonSoup.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
 
   <!--
   <a href="#gruntandshout"><h3>They Grunt and Shout</h3></a> <p>4:37</p>
@@ -193,7 +193,7 @@
         </tr>
         <tr>
           <td>
-            <audio controls style="vertical-align: middle;"><source src="mp3_live/QuietTonight-Stemmix.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+            <audio id='liveTrack' controls style="vertical-align: middle;"><source src="mp3_live/QuietTonight-Stemmix.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
           </td>
         </tr>
       </table>
@@ -852,5 +852,20 @@
         </tr>
       </table>
       -->
+
+<script>
+
+function stopLepton() {
+  var audioBed = document.getElementById("lepton");
+  
+  audioBed.pause();
+  audioBed.currentTime = 0;
+  
+}
+
+document.getElementById("liveTrack").addEventListener("play", stopLepton);
+
+</script>
+
 </body>
 </html>
