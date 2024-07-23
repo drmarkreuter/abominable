@@ -11,6 +11,25 @@
   .wordart {
     border-radius: 20px;
   }
+
+  .grid-container {
+  display: inline-grid;
+  height: 400px;
+  align-content: space-evenly;
+  grid-template-columns: auto auto;
+  gap: 10px;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  position: static;
+}
+
+
+.grid-container > div {
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  text-align: center;
+  padding: 10px 0;
+  font-size: 20px;
+}
   
   
 </style>
@@ -42,6 +61,7 @@
   <a href="#springs"><h3>Springs part 1 & 2</h3></a>
   <a href="#legend"><h3>The Legend of HeuHeutenango</h3></a>
   <a href="#wells"><h3>Wells</h3></a>
+  <a href="#mushrooms"><h3>Mushrooms of Idaho</h3></a>
   
   <h2 id='set'>Set</h2>
   
@@ -706,6 +726,10 @@
       <a href="#set">Set</a>
       <hr>
       
+      <br>
+      <br>
+
+
       <!-- Lostgirl-->
       <!--
       <h1 id="lostgirl">Lostgirl</h1>
@@ -726,7 +750,7 @@
       -->
       
       <!-- Black Shuck -->
-      <h1 id="blackshuck">Black Shuck</h1>
+      <!-- <h1 id="blackshuck">Black Shuck</h1>
       
       <table>
         <tr>
@@ -741,12 +765,11 @@
         </tr>
       </table>
       <a href="#set">Set</a>
-      <hr>
+      <hr> -->
       
-      <!-- StylophoneSongStemmix -->
       
       <!-- Stylophone -->
-      <h1 id="stylophone">Stylophone</h1>
+      <!-- <h1 id="stylophone">Stylophone</h1>
       
       <table>
         <tr>
@@ -761,10 +784,10 @@
         </tr>
       </table>
       <a href="#set">Set</a>
-      <hr>
+      <hr> -->
       
       <!-- Springs part 1 and part 2 -->
-      <h1 id="springs">Springs (pt 1 & 2)</h1>
+      <!-- <h1 id="springs">Springs (pt 1 & 2)</h1>
       
       <table>
         <tr>
@@ -779,10 +802,10 @@
         </tr>
       </table>
       <a href="#set">Set</a>
-      <hr>
+      <hr> -->
 
       <!-- The Legend of Huehuetenango -->
-      <h1 id="legend">The Legend of HeuHeutenango</h1>
+      <!-- <h1 id="legend">The Legend of HeuHeutenango</h1>
       
       <table>
         <tr>
@@ -799,8 +822,11 @@
       <a href="#set">Set</a>
       <hr>
 
+      <br>
+      <a href="#top"><h3>Top</h3></a> -->
+
       <!-- wells -->
-      <h1 id="wells">Wells</h1>
+      <!-- <h1 id="wells">Wells</h1>
       
       <table>
         <tr>
@@ -815,8 +841,131 @@
         </tr>
       </table>
       <a href="#set">Set</a>
-      <hr>
+      <hr> -->
+
+      <!-- Mushrooms -->
+      <!-- <h1 id="mushrooms">Mushrooms of Idaho</h1>
       
+      <table>
+        <tr>
+          <td>
+            <img class='wordart' src='images_live/mushrooms-of-idaho.png' width='30%'>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <audio controls style="vertical-align: middle;"><source src="mp3_live/Mushrooms of Idaho - abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+          </td>
+        </tr>
+      </table>
+      <a href="#set">Set</a>
+      <hr>
+      <br>
+      <br> -->
+
+
+      <!-- grid -->
+      <div class="grid-container">
+        <div>
+          <h1 id="wells">Wells</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/woman-on-beach5.jpeg' width='40%'>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <audio controls style="vertical-align: middle;"><source src="mp3_live/Wells - Extended Mix Backing.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+              </td>
+            </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>
+        <div>
+          <h1 id="mushrooms">Mushrooms of Idaho</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/mushrooms-of-idaho.png' width='40%'>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <audio controls style="vertical-align: middle;"><source src="mp3_live/Mushrooms of Idaho - abominable.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+              </td>
+            </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>
+        <div>
+          <h1 id="springs">Springs (pt 1 & 2)</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/springs2024.png' width='40%'>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <audio controls style="vertical-align: middle;"><source src="mp3_live/Springs-Part1-part2 copy.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+            </td>
+            </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>  
+        <div>
+          <h1 id="legend">The Legend of HeuHeutenango</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/legend5.jpg' width='40%'>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <audio controls style="vertical-align: middle;"><source src="mp3_live/The Legends of HeuHeutenango-BijouxMix.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+              </td>
+            </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>
+        <div>
+          <h1 id="stylophone">Stylophone</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/stylophone2.jpg' width='40%'>
+              </td>
+              </tr>
+              <tr>
+                <td>
+                  <audio controls style="vertical-align: middle;"><source src="mp3_live/StylophoneSongStemmix.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+                </td>
+              </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>
+        <div>
+          <h1 id="blackshuck">Black Shuck</h1>
+          <table>
+            <tr>
+              <td>
+                <img class='wordart' src='images_live/blackshuck1.jpg' width='40%'>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <audio controls style="vertical-align: middle;"><source src="mp3_live/BlackShuckStemmix.mp3" type="audio/mpeg">Your browser does not support the audio element. </audio>
+              </td>
+            </tr>
+          </table>
+          <a href="#set">Set</a>
+        </div>  
+      </div>
+      
+
+
       <!-- Vespar Calls-->
       <!--
       <h1 id="vesparcalls">Vespar Calls</h1>
@@ -857,7 +1006,6 @@
       
       
       
-      <a href="#top"><h3>Top</h3></a>
       <!--
       <table>
         <tr>
